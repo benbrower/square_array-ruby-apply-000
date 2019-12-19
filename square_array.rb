@@ -1,4 +1,4 @@
 def square_array(array)
-  # array.each{|e| new_numbers << e**2}
-  return array.each{|e| new_numbers << e**2}
+  array.each{|e| new_numbers << e**2}
+  return new_numbers
 end
